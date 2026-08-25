@@ -24,7 +24,10 @@ BOT_TOKEN = "8948580898:AAHB0heqE9uOdol1IEOQ1wwH8DYs9N5n7jQ"
 
 ADMIN_IDS = {
     8814358315,
-    # Add trusted admins here if needed.
+    8140703825,
+    8072943024,
+    8691769606,
+    6886719955,
 }
 
 BOT_USERNAME = "KryzoEducationBot"  # without @
