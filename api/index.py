@@ -20,7 +20,7 @@ from http.server import BaseHTTPRequestHandler
 # are stored in memory and reused with sendVideo/sendDocument.
 # ============================================================
 
-BOT_TOKEN = "8948580898:AAHB0heqE9uOdol1IEOQ1wwH8DYs9N5n7jQ"
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "").strip()
 
 ADMIN_IDS = {
     8814358315,
@@ -320,6 +320,17 @@ def handle_admin_message(message):
             chat_id,
             "👑 <b>KRYZO Education Admin Panel</b>\n\n"
             "Only authorized admins can create chapters, upload videos and decide who gets access.",
+            admin_menu(),
+        )
+        return True
+
+    if text == "/upload":
+        SESSIONS[user_id] = {"step": "chapter_name"}
+        send(
+            chat_id,
+            "➕ <b>Upload Chapter</b>\n\n"
+            "Send the chapter name.\n\n"
+            "Example: <code>Ray Optics</code>",
             admin_menu(),
         )
         return True
