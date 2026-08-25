@@ -20,7 +20,7 @@ from http.server import BaseHTTPRequestHandler
 # are stored in memory and reused with sendVideo/sendDocument.
 # ============================================================
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "").strip()
+BOT_TOKEN = "8948580898:AAHB0heqE9uOdol1IEOQ1wwH8DYs9N5n7jQ"
 
 ADMIN_IDS = {
     8814358315,
