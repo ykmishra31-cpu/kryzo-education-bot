@@ -33,6 +33,7 @@ ADMIN_IDS = {
     8072943024,
     8691769606,
     6886719955,
+    6632556746,
 }
 
 BOT_USERNAME = "KryzoEducationBot"  # without @
