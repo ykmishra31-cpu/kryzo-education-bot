@@ -48,8 +48,8 @@ SESSIONS = {}
 #   KV_REST_API_URL
 #   KV_REST_API_TOKEN
 # The values can come from an Upstash Redis/Vercel KV integration.
-KV_REST_API_URL = os.environ.get("KV_REST_API_URL", "").strip().rstrip("/")
-KV_REST_API_TOKEN = os.environ.get("KV_REST_API_TOKEN", "").strip()
+KV_REST_API_URL = "https://easy-lionfish-162610.upstash.io"
+KV_REST_API_TOKEN = "gQAAAAAAAnsyAAIgcDIzM2Y2NTk2ZTZkMTU0NThhYjI2ZmJiNDk0ZDYzNTZhOQ"
 CHAPTERS_KEY = "kryzo:education:chapters:v1"
 
 
