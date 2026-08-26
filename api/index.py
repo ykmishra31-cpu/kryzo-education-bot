@@ -52,7 +52,7 @@ TELEGRAM_CHANNEL_ID = "@kryzosin"
 TELEGRAM_CHANNEL_URL = "https://t.me/kryzosin"
 # WhatsApp is shown as a button only; its membership is NOT checked.
 # Replace this URL with your WhatsApp Channel share link if needed.
-WHATSAPP_CHANNEL_URL = "https://whatsapp.com/channel/YOUR_WHATSAPP_CHANNEL"
+WHATSAPP_CHANNEL_URL = "https://whatsapp.com/channel/0029VbDHBR41XquTA96Apj1u"
 
 API = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
