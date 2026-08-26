@@ -48,9 +48,9 @@ PUBLIC_URL = "https://kryzo-education-bot.vercel.app"
 # that Telegram channel so getChatMember can verify users.
 #
 # WhatsApp is intentionally NOT verified. It is only shown as a join button.
-TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "@YOUR_TELEGRAM_CHANNEL").strip()
-TELEGRAM_CHANNEL_URL = os.environ.get("TELEGRAM_CHANNEL_URL", "https://t.me/YOUR_TELEGRAM_CHANNEL").strip()
-WHATSAPP_CHANNEL_URL = os.environ.get("WHATSAPP_CHANNEL_URL", "https://whatsapp.com/channel/YOUR_WHATSAPP_CHANNEL").strip()
+TELEGRAM_CHANNEL_ID = "@kryzosin"
+TELEGRAM_CHANNEL_URL = "https://t.me/kryzosin"
+WHATSAPP_CHANNEL_URL = "https://whatsapp.com/channel/0029VbDHBR41XquTA96Apj1u"
 
 API = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
