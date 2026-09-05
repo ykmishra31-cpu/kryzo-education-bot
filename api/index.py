@@ -26,7 +26,7 @@ from http.server import BaseHTTPRequestHandler
 # Keep the token here if you are using index.py directly.
 # Do NOT commit/share this file publicly.
 
-BOT_TOKEN = "8948580898:AAHB0heqE9uOdol1IEOQ1wwH8DYs9N5n7jQ"
+BOT_TOKEN = "8948580898:AAGUNsMSVcm0-4JgEWApJPDZkakGN3eSmCE"
 
 ADMIN_IDS = {
     8814358315,
