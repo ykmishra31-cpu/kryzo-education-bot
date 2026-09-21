@@ -7,7 +7,7 @@ import secrets
 from http.server import BaseHTTPRequestHandler
 
 # ============================================================
-# KRYZO EDUCATION BOT
+# KRYZO EDUCATION  BOT
 # Vercel + Telegram
 #
 # Public chapter links:
